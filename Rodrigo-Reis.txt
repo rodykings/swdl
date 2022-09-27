@@ -1,0 +1,36 @@
+4
+--
+
+@prefix tim <https://dbpedia.org/page/Tim_Berners-Lee> .
+
+tim:Tim_Berners dbo:birthDate "1955-06-08"^^xsd:date .
+tim:Tim_Berners dbo:birthName "Timothy John Berners-Lee"@en .
+tim:Tim_Berners dbo:education  dbr:The_Queen's_College,_Oxford .
+
+5
+--
+
+It provides some properties of the instance dbo:birthDate like rdf:type, rdfs:domain, rdfs:isDefinedBy, rdfs:label, rdfs:range ,...
+
+6
+--
+
+If the Value is not an hyperlink it means that it is a literal and not an object
+
+7
+--
+
+http://dbpedia.org/resource/The_Queen's_College,_Oxford
+
+8
+--
+
+The previous link points to the resource, however when you click it will redirect you to the object webpage 
+
+https://dbpedia.org/page/The_Queen's_College,_Oxford
+
+9
+--
+
+The number in the value column is the date of birth. The text between brackects represent the type of the value.
+The value formally represents the number of Tim Berners Lee children. The value is an integer.
