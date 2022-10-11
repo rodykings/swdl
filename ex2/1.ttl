@@ -1,0 +1,9 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix feup:  <http://fe.up.pt/schema#> .
+
+<http://fe.up.pt/liliana.ferreira#me>
+        feup:firstName  "Liliana" .
+
+<http://fe.up.pt/lsf/doc.html>
+        feup:author  <http://fe.up.pt/liliana.ferreira#me> ;
+        feup:theme   "Web" .
